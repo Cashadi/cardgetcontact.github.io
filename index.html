@@ -1,0 +1,98 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <title>Getcontact</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      body {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0e3eda;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .card {
+        position: relative;
+        width: 300px;
+        height: 370px;
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        font-family: 'Poppins', sans-serif;
+      }
+      .card h3 {
+        color: #789395;
+      }
+      .details ul {
+        width: 200px;
+        height: 180px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      .details ul li {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+      }
+      .details i {
+        display: block;
+        width: 30px;
+      }
+      .fa-check {
+        color: #00b4d8;
+      }
+      .card p {
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: #003566;
+      }
+      button {
+        width: 260px;
+        height: 40px;
+        font-size: 17px;
+        border: none;
+        outline: none;
+        background-color: #ffe61b;
+        border-radius: 15px;
+      }
+      button:hover {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Tarif 1</h1>
+        <div class="details">
+          <ul>
+            <h3>LIMIT BULANAN</h3>
+            <li><i class="fas fa-check"></i>Pencarian Nomor: 100</li>
+            <li><i class="fas fa-check"></i>Melihat Tag: 10</li>
+            <li><i class="fas fa-check"></i>Skor Kepercayaan: 10</li>
+          </ul>
+        </div>
+        <p>Rp 38ribu / Bulan</p>
+        <button>Pilih Paket</button>
+      </div>
+    </div>
+  </body>
+</html>
